@@ -1,0 +1,61 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    font-family: Arial;
+}
+
+.container {
+    max-width: 1180px;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.items {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.input__row {
+    display: flex;   
+    align-items: center;
+}
+.input__row-input {
+    padding-right: 20px;
+    width: 220px;
+}
+.input__row-input input {
+    width: 100%;
+}
+.input__row-btn {
+    padding-left: 20px;
+}
+.input__row-btn button {
+    width: 100px;
+    padding: 5px;
+}
+
+.current__date p {
+    color: #444162;
+}
+
+.textThrough {
+    text-decoration: line-through;
+}
+
+ul li p {
+    display: inline;
+}
+ul div {
+    display: flex;
+}
